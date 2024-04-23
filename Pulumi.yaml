@@ -1,0 +1,10 @@
+name: aws-docker-ec2
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: ami-0f673487d7e5f89ca
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/ecfdf630-083a-43ee-9549-5e1ec07356c5.zip
